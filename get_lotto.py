@@ -10,3 +10,6 @@ for key, value in res.items():
 
 drw_numbers = sorted(drw_numbers)
 bonus_number = res['bnusNo']
+
+print('이번주 로또 번호는: ', drw_numbers)
+print('보너스 번호는', bonus_number)
